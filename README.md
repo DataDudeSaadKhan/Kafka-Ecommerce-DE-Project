@@ -46,9 +46,13 @@ The pipeline is designed with **scalability, reproducibility, and auditability**
 kafkaRealTimeEcommerce/
 │
 ├── producer.py            # Publishes simulated events to Kafka
+
 ├── kafka_processor.py     # Cleans/validates raw events
+
 ├── snowflake_consumer.py  # Loads clean events into Snowflake
+
 ├── requirements.txt       # Python dependencies
+
 └── README.md              # Project documentation
 ```
 
